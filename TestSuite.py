@@ -8,5 +8,5 @@ class TestSuite:
         for test in self.tests:
             test.run(result)
 
-    def add (self, test):
+    def add_test(self, test):
         self.tests.append(test)
